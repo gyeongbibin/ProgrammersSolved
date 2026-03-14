@@ -1,0 +1,10 @@
+function solution(numbers) {
+    let answer = 0;
+
+    for (let i = 0; i < numbers.length; i++) {
+        answer += numbers[i];
+    }
+    answer /= numbers.length
+
+    return answer;
+}
